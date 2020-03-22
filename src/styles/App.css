@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+
+.App {
+  text-align: center;
+  background: #111111;
+  color: #fff;
+  font-family: "Roboto", "sans serif";
+  font-weight: 500;
+}
+
+.nav {
+  margin: 0vh 10vw ;
+}
+
+.btn-secondary,
+.btn-secondary:focus {
+  background: #6BFACF;
+  color: #111;
+  padding: 1rem .75rem;
+}
+
+.btn-secondary:active,
+.btn-secondary:target,
+.btn-secondary:hover {
+  color: #fff;
+  background: #6BFACF;
+}
+
+.tab-content {
+  height: 100vh;
+}
+
+.card-body {
+  background: #111;
+}
+.logo {
+  height: 200px;
+  margin-right: -4rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
