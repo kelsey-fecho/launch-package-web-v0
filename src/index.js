@@ -10,7 +10,9 @@ let mParticleConfig = {
    isDevelopmentMode: true
 }
 
-mParticle.init('us1-f94cd121f959084b9ee0cb7ec6f404fe', mParticleConfig);
+const mPARTICLE_API_KEY = "replace with your key"
+
+mParticle.init(mPARTICLE_API_KEY, mParticleConfig);
 
 ReactDOM.render(
   <React.StrictMode>
