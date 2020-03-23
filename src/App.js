@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {TabContent, Nav, Navbar, NavbarBrand, NavItem, NavLink} from 'reactstrap';
 import classnames from 'classnames';
 import './styles/App.css';
-import Logo from './logo.svg'
+import Logo from './logo.png'
 import mParticle from '@mparticle/web-sdk'
 import CustomEvents from './components/CustomEvents'
 import CommerceEvents from './components/CommerceEvents'
@@ -17,8 +17,11 @@ const App = (props) => {
   return (
     <div className="App">
       <Navbar>
-        <NavbarBrand><img src={Logo} className="logo" alt="logo"></img>Launch Package</NavbarBrand>
+        <NavbarBrand>
+          <img src={Logo} className="logo" alt="logo"></img>
+        </NavbarBrand>
       </Navbar>
+      <h1 className="title">Launch Package</h1>
       <Nav tabs>
         <NavItem>
           <NavLink

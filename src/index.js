@@ -10,7 +10,7 @@ let mParticleConfig = {
    isDevelopmentMode: true
 }
 
-const mPARTICLE_API_KEY = "replace with your key"
+const mPARTICLE_API_KEY = "replace with key"
 
 mParticle.init(mPARTICLE_API_KEY, mParticleConfig);
 
