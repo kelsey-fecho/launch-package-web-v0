@@ -10,7 +10,7 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
     "fibers": "^4.0.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mparticle": "^1.0.6",
     "node-sass": "^4.13.1",
     "postscribe": "^2.0.8",
